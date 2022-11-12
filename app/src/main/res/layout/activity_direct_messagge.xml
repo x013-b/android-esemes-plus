@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:hint="Numer telefonu"
+        android:id="@+id/d_message_number"
+        android:textColor="@color/whitesmoke"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/d_message_number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Treść wiadomości"
+        android:id="@+id/d_message"
+        android:textColor="@color/whitesmoke"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyślij wiadomość"
+        android:layout_below="@id/d_message"
+        android:layout_centerInParent="true"
+        android:id="@+id/d_sendbutton"
+        android:backgroundTint="@color/teal_200"/>
+</RelativeLayout>

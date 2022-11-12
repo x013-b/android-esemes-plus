@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fdas"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:id="@+id/contact_number"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/whitesmoke"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_number"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Treść wiadomości"
+        android:textSize="25sp"
+        android:id="@+id/contact_message"
+        android:textColor="@color/whitesmoke"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_message"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/whitesmoke"
+        android:id="@+id/contact_send"
+        android:text="Wyślij wiadomość"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+
+
+</RelativeLayout>
